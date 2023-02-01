@@ -1,0 +1,69 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Container Section */
+.container {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+/* Title Section */
+#title {
+    padding: 20px;
+}
+
+
+/* Image Section */
+#image img {
+    display: inline-block;
+    width: 51%;
+}
+
+
+/* Intro Section */
+small {
+    font-size: 20px;
+}
+
+small a {
+    text-decoration: none;
+}
+
+
+/* About Section */
+#about {
+    margin: 65px 125px;
+    padding: 15px 40px;
+    text-align: left;
+    border: 2px solid green;
+    box-shadow: 20px 20px 400px cyan;
+}
+
+#about h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about ul li {
+    font-size: 18px;
+}
+
+
+/* Footer Section */
+#footer {
+    color: white;
+    background-color: rgb(34, 33, 33);
+    font-size: 20px;
+    margin-top: 23px;
+    padding: 5px;
+}
+
+.copy,
+.info {
+    padding: 15px;
+}
